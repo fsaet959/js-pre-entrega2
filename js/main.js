@@ -1,10 +1,9 @@
-let welcome = "Bienvenido/a al Quiz"
+nombre = prompt ("Escriba su nombre")
 
-alert(welcome)
+alert("Bienvenido/a al simulador de ahorro," + nombre)
 
-let nombre = prompt("Escribi tu nombre")
-let apellido = prompt ("Escribi tu apellido")
+const contraseñaCorrecta = "123456"
 
-let preguntainicial = prompt ("Estas list@, "+ nombre + " " + apellido +"?")
+
 
 
